@@ -34,4 +34,4 @@ jobs:
           push: false
           # Provide the tags to apply to the image, this example uses the date from step 2
           tags: |
-            ncote/workshop-webapp:${{ steps.date.outputs.date }}
+            hsoh/workshop-webapp:${{ steps.date.outputs.date }}
